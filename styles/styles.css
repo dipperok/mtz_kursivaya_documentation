@@ -1,0 +1,77 @@
+.header {
+    background: rgb(0, 0, 0);
+    color: white;
+    height: 80px;
+}
+
+.content {
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.header-links {
+    padding-top: 15px;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.15s linear;
+}
+
+.header-link:hover {
+    color: #7ca7cd;
+}
+
+.header-logo {
+    height: 50px;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    box-sizing: border-box;
+    background: linear-gradient(118.38deg, #FCFCFC -4.6%, #E9E9E9 200.44%);
+}
+
+.main {
+    max-width: 980px;
+    margin: auto;
+}
+
+@media (max-width: 1020px) {
+    .main {
+        padding: 0 30px;
+    }
+    .content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+
+
+.dwn-link {
+    padding-bottom: 45px;
+    margin-bottom: 10px;
+}
+
+.windows-logo {
+    width: 25px;
+    padding-top: 10px;
+}
+
+.footer {
+    background: rgb(0, 0, 0);
+    color: white;
+    height: 80px;
+    margin-top: 30px;
+}
