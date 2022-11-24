@@ -12,18 +12,18 @@
     <body>
 
         <header class="header">
-            <div class="content">
+            <div class="header-content">
                 <a href="https://mgri.ru/" target="_blank" ><img src="img/mgriW.svg" alt="mgri vector logo" class="header-logo"/></a>
                 <div class="header-links">
                     <a href="#dwn-links" class="header-link">Скачать</a>
                     <a href="#dwn-links" class="header-link">Контакты</a>
-                    <a href="" class="header-link">Github</a>
+                    <a href="https://github.com/dipperok/mtz_kursivaya" class="header-link">Github</a>
                 </div>
             </div>
         </header>
 
         <main class='main'>
-            <h1>MTZ solver</h1>
+            <h1 id="MTZ-solver">MTZ solver</h1>
             <p>Проект представлен компактной программой созданной в ходе выполнения курсовой работы. Программа способна решать одномерную задачу МТЗ и визуализовать данные представленные в специальном для неё виде в .xlsx или .txt формате</p>
 
             <div class="slider-gallery">
@@ -57,29 +57,33 @@
             <p>1. Excel Файл формата .xlsx. Данные в нём представлены таблицей, где первая строка состоит из двух чисел определяюих размер матрицы данных, далее идет две строки с дефолтной плотностью и дале уже таблица данных указанного размера, то есть как в случае примера 20х20.</p>
             <p>2. Текстовый Файл формата .txt. Данные в нём представлены таблицей, где первая строка состоит из двух чисел определяюих размер матрицы данных чере зпробел, далее идет две строки с дефолтной плотностью и далее уже таблица данных указанного размера, то есть как в случае примера 20х20. Все числа пишутся через пробел.</p>
 
+            <h2>Интерфейс и функции</h2>
+            
             <h2>МТЗ</h2>
             <p>Метод  магнитотеллурического  зондирования  (МТЗ)  являетсяодним  из основных  методов  электроразведки.  Он  основан  на  изучении  переменного электромагнитного  поля  магнитосферной  и  ионосферной  природы  с  целью получения  сведений  о  строении  верхних  слоев  Земли.  Идея  этого  метода  была предложена в 1950 г академиком А.Н.Тихоновым. Практическое применение МТЗ началось в 60-х годах.</p>
 
+
             <h2 id="dwn-links">Скачать</h2>
-            <div class="dwn-link-1">
+            <div>
                 <img src="img/win2.svg" alt="windows vector logo" class="windows-logo">
                 <a href="https://drive.google.com/file/d/1vihzzmnJAtwfxcOj3wXvQkxtleUNuIR5/view?usp=sharing" target="_blank" class="dwn-link"><span>Скачать установщик .exe</span></a>
             </div>
-            <div class="dwn-link-2">
+            <div>
                 <img src="img/win2.svg" alt="windows vector logo" class="windows-logo">
                 <a href="https://drive.google.com/file/d/1vihzzmnJAtwfxcOj3wXvQkxtleUNuIR5/view?usp=sharing" target="_blank" class="dwn-link"><span>Скачать покет версию</span></a>
             </div>
             
+            <h2>Контакты</h2>
+            <p>Проект выполнен студентам РГГРУ (МГРУ) им. Серго Орджоникидзе в рамках курсовой работы по предмету "Многомерное компьютерное моделирование". </p>
+            <div class="footer-contact">Конобеев Тимофей - <a href="" target="_blank">@dipperok</a></div> 
+            <div>Михаил Хижняк - <a href="" target="_blank">@genkarseff</a></div>
 
         </main>
         <footer class="footer">
-            <div class="content">
-                <div class="footer-contacts">
-                    <div class="footer-contact">Конобеев Тимофей - @dipperok</div> 
-                    <div>Михаил Хижняк - @genkarseff</div>
-                </div>
-                <span>Github</span>
-                <span>МГРИ</span>
+            <div class="footer-content">
+                <a href="#MTZ-solver" class="header-link"><span>MTZ solver</span></a>
+                <a href="https://github.com/dipperok/mtz_kursivaya" class="header-link" target="_blank"><span>Github</span></a>
+                <a href="https://mgri.ru/" class="header-link" target="_blank"><span>МГРИ</span></a>
             </div>
         </footer>
     <script src='scripts/galleryApp.js'></script>

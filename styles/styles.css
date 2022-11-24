@@ -4,7 +4,7 @@
     height: 80px;
 }
 
-.content {
+.header-content {
     max-width: 980px;
     margin: auto;
     display: flex;
@@ -80,8 +80,17 @@ h2 {
 .footer {
     background: rgb(0, 0, 0);
     color: white;
-    height: 100px;
+    height: 80px;
     margin-top: 30px;
+    font-size: 19px;
+}
+
+.footer-content {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
 }
 
 .footer-contacts {
