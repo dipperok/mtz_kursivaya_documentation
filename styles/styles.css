@@ -47,11 +47,15 @@ body {
     margin: auto;
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1000px) {
     .main {
         padding: 0 30px;
     }
-    .content {
+    .footer-content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .header-content {
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -70,11 +74,33 @@ h2 {
 
 .dwn-link:hover {
     color: #4a657e;
+    text-decoration: underline;
 }
 
 .windows-logo {
     width: 25px;
     padding-top: 10px;
+}
+
+.contacts {
+    display: block;
+}
+
+.contact {
+    margin-bottom: 8px;
+    font-weight: bold;
+
+}
+
+.contact-link {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.15s linear;
+}
+
+.contact-link:hover {
+    color: #5585b3;
+    text-decoration: underline;
 }
 
 .footer {
@@ -91,12 +117,4 @@ h2 {
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
-}
-
-.footer-contacts {
-    display: block;
-}
-
-.footer-contact {
-    margin-bottom: 8px;
 }
